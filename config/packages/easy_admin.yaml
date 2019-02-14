@@ -1,3 +1,13 @@
 easy_admin:
     entities:
-        - App\Entity\User
+        User:
+            class: App\Entity\User
+            controller: App\Controller\EasyAdmin\UserController
+            form:
+                fields:
+                    - username
+                    - email
+                    - enabled
+                    - { property: 'plainPassword', type: 'text', type_options: { required: false } }
+                    - { property: 'roles', type: 'choice', type_options: { multiple: true, choices: { 'ROLE_USER': 'ROLE_USER', 'ROLE_ADMIN': 'ROLE_ADMIN', 'ROLE_SUPER_ADMIN': 'ROLE_SUPER_ADMIN' } } }
+

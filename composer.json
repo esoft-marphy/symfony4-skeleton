@@ -17,6 +17,7 @@
         "ext-ctype": "*",
         "ext-iconv": "*",
         "easycorp/easyadmin-bundle": "^2.1",
+        "friendsofsymfony/user-bundle": "^2.1",
         "knplabs/knp-snappy-bundle": "^1.6",
         "sensio/framework-extra-bundle": "^5.2",
         "symfony/asset": "4.2.*",
@@ -27,6 +28,7 @@
         "symfony/orm-pack": "^1.0",
         "symfony/profiler-pack": "^1.0",
         "symfony/security-bundle": "4.2.*",
+        "symfony/swiftmailer-bundle": "^3.2",
         "symfony/yaml": "4.2.*"
     },
     "config": {
