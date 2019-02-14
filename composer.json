@@ -2,8 +2,8 @@
     "name": "marphy/symfony4-skeleton",
     "type": "project",
     "license": "MIT",
-    "keywords": ["symfony", "skeleton", "webpack"],
-    "description": "Symfony 4.* skeleton with custom webpack and easyadmin bundle",
+    "keywords": ["symfony", "skeleton", "webpack", "postgres"],
+    "description": "Symfony 4.* skeleton with custom webpack and EasyAdmin bundle, FOSUserBandle, Postgresql",
     "homepage": "https://github.com/esoft-marphy/symfony4-skeleton",
     "authors": [
         {
